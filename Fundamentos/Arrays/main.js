@@ -1,11 +1,14 @@
-let nota = 55;
+let player = {
+    nome : 'Marta',
+    lastName : 'Silva',
+    age : 34,
+    medals : { 
+        golden: 2, 
+        silver: 3 
+    }
+}
+player.bestInTheWorld = [2006, 2007, 2008, 2009, 2010, 2018]
 
-if (nota >= 80){
-    console.log ('Parabéns, você faz parte do grupo de pessoas aprovadas!')
-}
-else if (nota > 60 && nota <=80){
-    console.log('Você está na nossa lista de espera.')
-}
-else {
-    console.log('Infelizmente, você reprovou.')
-}
+console.log('A jogadora ' + player.nome + ' ' + player.lastName + ' foi eleita a melhor do mundo por ' + player.bestInTheWorld.length + ' vezes')
+
+console.log('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata.')
