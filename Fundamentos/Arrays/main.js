@@ -1,19 +1,11 @@
-let contaX = 200;
+let nota = 55;
 
-function adicionaValor () {
-    return contaX + ;
+if (nota >= 80){
+    console.log ('Parabéns, você faz parte do grupo de pessoas aprovadas!')
 }
-
-function subtraiValor (){
-    return contaX - ;
+else if (nota > 60 && nota <=80){
+    console.log('Você está na nossa lista de espera.')
 }
-
-function taxaValor () {
-    return contaX * ;
+else {
+    console.log('Infelizmente, você reprovou.')
 }
-
-function divideValor () {
-    return contaX / 
-}
-
-//O parametro de cada função deve ser substituído por um valor para concluir a operação
